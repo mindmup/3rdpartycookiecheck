@@ -22,7 +22,7 @@ example below:
     window.addEventListener("message", receiveMessage, false);
   </script>
 
-  <iframe src="LOCATION_OF_THE_SCRIPTS/start.html" />
+  <iframe src="LOCATION_OF_THE_SCRIPTS/start.html" style="display:none" />
 </body>
 ````
 
