@@ -14,9 +14,9 @@ example below:
   <script>
     var receiveMessage = function (evt) {
       if (evt.data === 'MM:3PCunsupported') {
-        console.log('thid party cookies are not supported');
+        console.log('third party cookies are not supported');
       } else if (evt.data === 'MM:3PCsupported') {
-        console.log('thid party cookies are supported');
+        console.log('third party cookies are supported');
       }
     };
     window.addEventListener("message", receiveMessage, false);
